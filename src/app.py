@@ -1,6 +1,5 @@
 import streamlit as st
 
-ruta_imagen = "image/descarga.png"
 
 home = st.Page(
     page="view/home.py",
@@ -35,7 +34,6 @@ pg = st.navigation(
 )
 
 # --Logo y derechos de actor--
-st.logo(ruta_imagen)
 st.sidebar.markdown("Elaborado con ❤️ por [Streamlit](https://share.streamlit.io/user/diether28)")
 
 pg.run()
