@@ -34,6 +34,6 @@ pg = st.navigation(
 
 # --Logo y derechos de actor--
 st.logo("image/descarga.png")
-st.sidebar.markdown("Elaborado con ❤️ por [Streamlit](https://share.streamlit.io/)")
+st.sidebar.markdown("Elaborado con ❤️ por [Streamlit](https://share.streamlit.io/user/diether28)")
 
 pg.run()
