@@ -21,6 +21,19 @@ project_1 = st.Page(
 
 project_2 = st.Page(
     page="view/chatbot.py",
-    title="Chatbot"
+    title="Chatbot",
     icon="🤖"
 )
+
+pg = st.navigation(
+    {
+        "Informacion:":[home,acerca_de],
+        "Projectos:":[project_1,project_2],
+    }
+)
+
+# --Logo y derechos de actor--
+st.logo("image/descarga.png")
+st.sidebar.markdown("Elaborado con ❤️ por [Streamlit](https://share.streamlit.io/)")
+
+pg.run()
